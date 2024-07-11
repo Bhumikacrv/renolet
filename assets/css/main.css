@@ -13438,7 +13438,7 @@ nav ul li a{
 @media screen and (max-width:550px) {
   .call{
     position: fixed;
-    bottom: 8%;
+    bottom: 6%;
     left: 2%;
     display: block;
     z-index: 4;
