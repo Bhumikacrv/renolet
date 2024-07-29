@@ -1,0 +1,735 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>renolet</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Place favicon.ico in the root directory -->
+      <link rel="shortcut icon" type="image/x-icon" href="images/logo-bg.png">
+
+      <!-- CSS here -->
+      <link rel="stylesheet" href="assets/css/bootstrap.css">
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+      <link rel="stylesheet" href="assets/css/splide.css">
+      <link rel="stylesheet" href="assets/css/nouislider.css">
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+      <link rel="stylesheet" href="assets/css/spacing.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+   </head>
+   <body>
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+
+      <!-- pre loader area start -->
+      <div id="loading">
+         <div id="loading-center">
+            <div id="loading-center-absolute">
+               <div class="object" id="object_four"></div>
+               <div class="object" id="object_three"></div>
+               <div class="object" id="object_two"></div>
+               <div class="object" id="object_one"></div>
+            </div>
+         </div>
+      </div>
+      <!-- pre loader area end -->
+
+      <!-- back to top start -->
+      <div class="back-to-top-wrapper">
+         <button id="back_to_top" type="button" class="back-to-top-btn">
+            <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>               
+         </button>
+      </div>
+      <!-- back to top end -->
+
+       <!-- search popup start -->
+       <div class="search__popup">
+         <div class="container">
+            <div class="row">
+               <div class="col-xxl-12">
+                  <div class="search__wrapper">
+                     <div class="search__top d-flex justify-content-between align-items-center">
+                        <div class="search__logo">
+                           <a href="#">
+                              <img src="images/logo-bg.png" alt="logo">
+                           </a>
+                        </div>
+                        <div class="search__close">
+                           <button type="button" class="search__close-btn search-close-btn">
+                              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                 <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>                                 
+                           </button>
+                        </div>
+                     </div>
+                     <div class="search__form">
+                        <form action="#">
+                           <div class="search__input">
+                              <input class="search-input-field" type="text" placeholder="Type here to search...">
+                              <span class="search-focus-border"></span>
+                              <button type="submit">
+                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg> 
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="search-popup-overlay"></div>
+      <!-- search popup end -->
+  <!-- offcanvas area start -->
+  <div class="offcanvas__area home-3-pos">
+   <div class="offcanvas__wrapper">
+      <div class="offcanvas__close">
+         <button class="offcanvas__close-btn offcanvas-close-btn">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+         </button>
+      </div>
+      <div class="offcanvas__content">
+         <div class="offcanvas__top mb-50 d-flex justify-content-between align-items-center">
+            <div class="offcanvas__logo logo">
+               <a href="index.html">
+                  <img src="images/logo.png" alt="logo" width="200px">
+               </a>
+            </div>
+         </div>
+         <div class="mobile-menu fix d-lg-none"></div>
+         <div class="tp-mobile-menu-pos"></div>
+         <div class="offcanvas__popup">
+            <ul class="side-nav-bar">
+               <li> <a href="about-us.html">About the brand</a></li>
+               <li><a href="portfolio.html">Gallery</a></li>
+               <li><a href="index.html#testimonial">Testimonials</a></li>
+               <li><a href="index.html#blog">Blog</a> </li>
+               <li ><a href="faq.html"> FAQs</a></li>
+               <li><a href="dealer-locator.html">Dealer locator</a></li>
+               
+            </ul>
+         </div>
+         <div class="offcanvas__contact">
+            <h4 class="offcanvas__title">Contacts</h4>
+            <div class="offcanvas__contact-content d-flex">
+               <div class="offcanvas__contact-content-icon">
+                  <i class="fa-sharp fa-solid fa-location-dot"></i>
+               </div>
+               <div class="offcanvas__contact-content-content">
+                  <a href="#">No 50/A and 51/A, 1st floor, 16th cross, NGEF Layout Rd, HMT Layout, Balaji Nagar, Mallathahalli, Bengaluru, Karnataka 560056 </a>
+               </div>
+            </div>
+            <div class="offcanvas__contact-content d-flex">
+               <div class="offcanvas__contact-content-icon">
+                  <i class="fa-solid fa-envelope"></i>
+               </div>
+               <div class="offcanvas__contact-content-content">
+                  <a href="mailto:needhelp@company.com"> inforenolet@gmail.com  </a>
+               </div>
+            </div>
+            <div class="offcanvas__contact-content d-flex">
+               <div class="offcanvas__contact-content-icon">
+                  <i class="fa-solid fa-phone"></i>
+               </div>
+               <div class="offcanvas__contact-content-content">
+                  <a href="tel:90084 83404">90084 83404</a>
+               </div>
+            </div>
+         </div>
+         <div class="offcanvas__social">
+            <a class="icon facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="icon twitter" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="icon youtube" href="#"><i class="fab fa-youtube"></i></a>
+            <a class="icon linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="body-overlay"></div>
+<!-- offcanvas area end -->
+<!-- header area start -->
+<header class="tp-header-3-area tp-header-3-transparent tp-header-height p-relative">
+   <div class="tp-header-3-top tp-header-3-space d-none d-xl-block">
+      <div class="container-fluid">
+         <div class="row align-items-center">
+            <div class="col-xl-12 col-xxl-12">
+               <div class="tp-header-3-top-info d-flex justify-content-end">
+                  
+                  <ul>
+                     <li>
+                        <a href="Dealership-Enquiry.html">Dealership Enquiry</a>
+                     </li>
+                     <li>
+                        <a href="#">Download Brochure</a>
+                     </li>
+                     <li>
+                        <a href="Dealership-Enquiry.html">Customer Service</a>
+                     </li>
+                     <li>
+                        <a href="experience.html" target="_blank">Experience Centre</a>
+                     </li>
+                     <li>
+                        <a href="tel:9008483404"><i class="fa-solid fa-phone"></i>90084 83404</a>
+                     </li>
+                     <li>
+                        <a href="dealer-locator.html"><button style="background-color: black; color:white; padding:5px">Dealer Locator</button></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+           
+         </div>
+      </div>
+   </div>
+   <div id="header-sticky" class="tp-header-3-bottom header__sticky p-relative">
+      <div class="tp-header-3-bottom-inner p-relative">
+         <div class="container-fluid gx-0">
+            <div class="row gx-0 align-items-center">
+               <div class="col-xl-2 col-6">
+                 <div class="tp-header-2-main-left d-flex align-items-center justify-content-xl-center p-relative">
+                  <div class="tp-header-3-logo">
+                     <a href="index.html">
+                        <img src="images/logo-bg.png" alt="" width="200px">
+                     </a>
+                  </div>
+                 </div>
+               </div>
+               <div class="col-xl-8 d-none d-xl-block">
+                  <div class="tp-main-menu-3-area d-flex align-items-center justify-content-center">
+                     <div class="tp-main-menu menu-icon">
+                        <nav id="tp-mobile-menu">
+                           <ul>
+                              <li> <a href="door.html">DOORS</a></li>
+                              <li><a href="window.html">WINDOWS</a></li>
+                              <li><a href="frame.html">FRAMES</a></li>
+                              <li><a href="solution.html">SOLUTIONS</a> </li>
+                              <li><a href="mesh.html">Mesh Screens</a></li>
+                              <li class="has-dropdown">
+                                 <a href="#">Products</a>
+                                 <ul class="submenu">
+                                    <li><a href="blinds.html">Blinds</a></li>
+                                    <li><a href="Wooden-Flooring.html">Wooden Flooring</a></li>
+                                    <li><a href="Wallpapers.html">Wallpapers</a></li>
+                                    <li><a href="Curtains.html">Curtains</a></li>
+                                 </ul>
+                              </li>
+                              <li ><a href="about-us.html">ABOUT US</a></li>
+                              <li><a href="blog.html">Blogs</a></li>
+                              <li><a href="contact.html">CONTACT</a></li>
+                              <li class="none-1"><a href="portfolio.html">Gallery</a></li>
+                              <li class="none-1"><a href="index.html#testimonial">Testimonials</a></li>
+                              <li class="none-1"><a href="faq.html"> FAQs</a></li>
+                              <li class="none-1"><a href="#">Download Brochure</a></li>
+                              <li class="none-1"><a href="Dealership-Enquiry.html">Customer Service</a></li>
+                              <li class="none-1"><a href="experience.html" target="_blank">Experience Centre</a></li>
+                              <li class="none-1"><a href="dealer-locator.html">Dealer locator</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                     
+                  </div>
+               </div>
+               <div class="col-xl-2 col-6">
+                  <div class="tp-header-3-right">
+                     <div class="tp-header-3-main-right d-flex align-items-center justify-content-end">
+                        
+                        <div class="tp-header-3-hamburger-btn offcanvas-open-btn">
+                           <button class="hamburger-btn">
+                              <span>
+                                 <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 1.13163C0 0.506972 0.499692 0 1.11538 0H20.4487C21.0644 0 21.5641 0.506972 21.5641 1.13163C21.5641 1.7563 21.0644 2.26327 20.4487 2.26327H1.11538C0.499692 2.26327 0 1.7563 0 1.13163ZM27.8846 10.5619H1.11538C0.499692 10.5619 0 11.0689 0 11.6935C0 12.3182 0.499692 12.8252 1.11538 12.8252H27.8846C28.5003 12.8252 29 12.3182 29 11.6935C29 11.0689 28.5003 10.5619 27.8846 10.5619ZM14.5 21.1238H1.11538C0.499692 21.1238 0 21.6308 0 22.2555C0 22.8801 0.499692 23.3871 1.11538 23.3871H14.5C15.1157 23.3871 15.6154 22.8801 15.6154 22.2555C15.6154 21.6308 15.1157 21.1238 14.5 21.1238Z" fill="#0059bc"/>
+                                 </svg>
+                              </span>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+<!-- header area end -->
+
+      <main>
+
+         <!-- blog breadcrumb area start -->
+         <section class="breadcrumb__area breadcrumb-style pt-190 pb-210 p-relative z-index-1" data-background="landing/30.png">
+           
+            <div class="breadcrumb__bg-overlay m-img"></div>
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-xl-10">
+                     <div class="breadcrumb__content text-center">
+                        <h3 class="breadcrumb__title">Home Blinds
+                           <img src="assets/img/breadcrumb/titile.svg" alt="">
+                        </h3>
+                        <div class="breadcrumb__list breadcrumb__list-translate">
+                           <span><a href="index.html">Home</a></span>
+                           <span class="dvdr"><i class="fa-regular fa-angle-right"></i></span>
+                           <span>Pages</span>
+                           <span class="dvdr"><i class="fa-regular fa-angle-right"></i></span>
+                           <span>Blinds</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- blog breadcrumb area end -->
+
+
+         <!-- postbox area start -->
+         <section class="postbox__area pt-120 pb-120">
+            <div class="container">
+               <div class="row reverse">
+                  <div class="col-xxl-8 col-xl-8 col-lg-8">
+                     <div class="postbox__wrapper">
+                        <article class="postbox__item format-image mb-50 transition-3">
+                           <div class="tp-about-breadcrumb-img postbox__thumb w-img">
+                              <a>
+                                 <img src="mesh/1.png" alt="">
+                              </a>
+                              
+                           </div>
+                           <div class="postbox__content">
+                             
+                              <h3 class="postbox__title">
+                                 <a >Home Blinds Shop in Bangalore</a>
+                              </h3>
+                              <div class="postbox__text">
+                                 <p>A private space where you and your loved ones feel at ease is called home. The areas of your house with windows should ideally have them open to allow for ventilation and air movement. You can regulate the amount of dust, sunshine, and privacy that enters your house with the help of blinds.In addition to making a bold stylistic statement for your home, these blinds keep you cool in the summer and warm in the winter. Renolet is adamant that your house is a magnificent work of art and that nothing else can soothe you the way your home can. These window treatments ensure that the quantity of light entering your house is comfortable for you. Those who work nights and sleep during the day might make use of house blinds.</p>
+                                 <p>To create the appearance of a completely dark room so you may sleep soundly all day. With the aid of house blinds, your movie-watching experience will always be fantastic since they create a completely dark, theater-like ambiance. It is essential to select window coverings for your home based on the color, theme, and interior space. Renolet offers an extensive selection of house blinds, and we guarantee that you will find the ideal blind for your decor.</p>
+                              </div>
+                              
+                           </div>
+                        </article>
+                        
+                       
+                     </div>
+                  </div>
+                  <div class="col-xxl-4 col-xl-4 col-lg-4">
+                     <div class="sidebar__wrapper">
+                        
+                        <div class="sidebar__widget mb-30">
+                           
+                           <h3 class="sidebar__widget-title">Blinds</h3>
+                           <div class="sidebar__widget-content">
+                              <ul>
+                                 <li><a href="Home Blinds.html">Home Blinds </a></li>
+                                 <li><a href="Office Blinds.html">Office Blinds</a></li>
+                                
+                                 
+                              </ul>
+                           </div>
+                          
+                        </div>
+                       
+                     </div>
+                  </div>
+                  
+               </div>
+               
+               </div>
+            </section>
+
+               
+                  
+ <!-- team area start -->
+ <section class="tp-team-area p-relative pd-100">
+   
+   <div class="container">
+      <div class="row align-items-center">
+         <div class="col-lg-6">
+            <div class="tp-team-title-wrapper">
+               
+               <h3 class="tp-section-title">MOST POPULAR DESIGNS</h3>
+            </div>
+         </div>
+         <div class="col-lg-6">
+            <div class="tp-team-nav d-flex justify-content-start justify-content-lg-end align-items-end mb-30">
+               <button type="button" class="team-button-prev-1 tp-btn-hover-clear alt-color" tabindex="0" aria-label="Previous slide"><i class="fa-regular fa-arrow-left"></i>
+               <b></b>
+               </button>
+               <button type="button" class="team-button-next-1 tp-btn-hover-clear alt-color" tabindex="0" aria-label="Next slide"><i class="fa-regular fa-arrow-right"></i>
+               <b></b>
+               </button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container-fluid">
+      <div class="row">
+         <div class="team-active swiper-container">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="tp-team-wrapper p-relative">
+                     <div class="tp-team-wrapper-thumb">
+                        <a><img src="mesh/b-1.png" alt=""></a>
+                        
+                     </div>
+                     <div class="tp-team-wrapper-content d-flex align-items-center justify-content-between">
+                        <div class="tp-team-wrapper-content-text">
+                           <h3 class="team-title"><a>Vertical Blind Shades</a></h3>
+                           
+                        </div>
+                        
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="tp-team-wrapper p-relative">
+                     <div class="tp-team-wrapper-thumb">
+                        <a><img src="mesh/b-2.png" alt=""></a>
+                        
+                     </div>
+                     <div class="tp-team-wrapper-content d-flex align-items-center justify-content-between">
+                        <div class="tp-team-wrapper-content-text">
+                           <h3 class="team-title"><a>Vertical Blinds</a></h3>
+                          
+                        </div>
+                        
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="tp-team-wrapper p-relative">
+                     <div class="tp-team-wrapper-thumb">
+                        <a><img src="mesh/b-3.png" alt=""></a>
+                        
+                     </div>
+                     <div class="tp-team-wrapper-content d-flex align-items-center justify-content-between">
+                        <div class="tp-team-wrapper-content-text">
+                           <h3 class="team-title"><a>Roman Shades</a></h3>
+                           
+                        </div>
+                        
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="tp-team-wrapper p-relative">
+                     <div class="tp-team-wrapper-thumb">
+                        <a><img src="mesh/b-4.png" alt=""></a>
+                        
+                     </div>
+                     <div class="tp-team-wrapper-content d-flex align-items-center justify-content-between">
+                        <div class="tp-team-wrapper-content-text">
+                           <h3 class="team-title"><a>Roller Shades</a></h3>
+                          
+                        </div>
+                        
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="tp-team-wrapper p-relative">
+                     <div class="tp-team-wrapper-thumb">
+                        <a><img src="mesh/b-5.png" alt=""></a>
+                        
+                     </div>
+                     <div class="tp-team-wrapper-content d-flex align-items-center justify-content-between">
+                        <div class="tp-team-wrapper-content-text">
+                           <h3 class="team-title"><a>Honeycomb Shades</a></h3>
+                          
+                        </div>
+                        
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                <div class="tp-team-wrapper p-relative">
+                   <div class="tp-team-wrapper-thumb">
+                      <a><img src="mesh/b-6.png" alt=""></a>
+                      
+                   </div>
+                   <div class="tp-team-wrapper-content d-flex align-items-center justify-content-between">
+                      <div class="tp-team-wrapper-content-text">
+                         <h3 class="team-title"><a>Exterior Shades</a></h3>
+                        
+                      </div>
+                      
+                   </div>
+                </div>
+             </div>
+              
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- team area end -->
+
+          <!-- support area start -->
+          <!-- <section class="tp-support-area tp-support-bg p-relative pb-110 fadeUp">
+            <div class="container container-large">
+               <div class="tp-support-shape">
+                  <img class="shape-1" src="renolet-img/a2.png" alt="">
+                  <img class="shape-2" src="assets/img/support/shape-bg.png" alt="">
+               </div>
+               <div class="row justify-content-center">
+                  <div class="col-xxl-8 col-xl-10">
+                     <div class="tp-support-title-wrapper text-center">
+                        
+                        <h3 class="tp-section-title">Frequently Ask <span class="title-color">Question?</span>
+                          
+                        </h3>
+                     </div>
+
+                     <div class="tp-service-details-faq faq-style-1">
+                        <div class="tp-faq-tab-content tp-accordion">
+                           <div class="accordion" id="general_accordion">
+                              <div class="accordion-item tp-faq-active">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Quality UPVC?
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#general_accordion">
+                                  <div class="accordion-body">
+                                    <p>Renolet produces cutting-edge UPVC windows and doors that enhance the beauty and security of the interior design of your house.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Is the client satisfied?
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#general_accordion">
+                                  <div class="accordion-body">
+                                    <p>To satisfy the demands of our prestigious clientele, we guarantee the utmost excellence and quality in our services.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Broad Variety of Products?
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#general_accordion">
+                                  <div class="accordion-body">
+                                    <p>Our products are well-known in the industry for their exceptional quality and limited selections. You therefore have a good motive to purchase UPVC Windows & Doors.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What kind of material goes into making UPVC windows and doors?
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#general_accordion">
+                                  <div class="accordion-body">
+                                    <p>Poly Vinyl Chloride, or PVC, is a robust and durable substance used to prepare UPVC windows. Because of the excellent quality of the material, a robust and durable product line is offered in the market.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section> -->
+         <!-- support area end -->        
+           
+         <!-- postbox area end -->
+
+
+         <!-- cta area start -->
+         <div class="tp-blog-cta-4-area p-relative">
+         <div class="tp-cta-4-shape fadeUp">
+            <img src="assets/img/cta/home-3/shape-2.png" alt="">
+         </div>
+         <div class="container">
+            <div class="row gx-0">
+               <div class="col-xl-6">
+                  <div class="tp-cta-4-wrapper-left">
+                     <img class="shape-1" src="assets/img/cta/home-3/shape-3.png" alt="">
+                     <div class="tp-cta-4-mail d-flex flex-wrap justify-content-center justify-content-xl-start align-items-center">
+                           <img src="assets/img/cta/home-3/conversation.png" alt="">
+                           <a href="mailto:inforenolet@gmail.com">Email Us at <span>inforenolet@gmail.com</span></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-6">
+                  <div class="tp-cta-4-wrapper-right">
+                     <div class="tp-cta-4-headphone d-flex flex-wrap justify-content-center ">
+                        <div class="tp-cta-4-headphone-thumb">
+                           <img src="assets/img/cta/home-3/headphone.png" alt="">
+                        </div>
+                        <div class="tp-cta-4-content">
+                           <p>PERFECT SOLUTION From  <span>Renolet</span></p>
+                           <a href="tel:90084 83404">90084 83404</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+            </div>
+            </div>
+         </div>
+         <!-- cta area end -->
+
+   </main>
+
+   <div class="call">
+ 
+      <div class="calls">
+       <a href="tel:9008483404"><i class="fa-solid fa-phone"></i></a>
+       <a href="https://wa.me/ 9008483404"><i class="fa-brands fa-whatsapp"></i></a>
+    
+      </div>
+ </div>
+ 
+       <!-- footer area start -->
+       <footer class="tp-footer-3-area p-relative">
+         <div class="tp-footer-bg"></div>
+         <div class="container">
+         <div class="tp-footer-3-main-area">
+            <div class="row">
+               <div class="col-lg-3 col-md-6">
+                  <div class="tp-footer-widget tp-footer-3-col-1">
+                     <div class="tp-footer-logo">
+                        <a href="index.html"> <img src="images/logo-bg.png" alt="" width="200px"></a>
+                     </div>
+                     <div class="tp-footer-widget-content">
+                        <div class="tp-footer-info">
+                           <p class="p">WE ARE THE LEADING UPVC DOORS AND WINDOWS PROVIDERS ACROSS BANGALORE</p>
+                           
+                        </div>
+                     </div>
+                     <div class="tp-footer-widget-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-6">
+                  <div class="tp-footer-widget tp-footer-3-col-2">
+                     <h3 class="tp-footer-widget-title">Quick Links</h3>
+                     <div class="tp-footer-widget-content">
+                        <ul>
+                           <li><a href="Bi.html">Doors</a></li>
+                           <li><a href="window.html"> Windows</a></li>
+                           <li><a href="frame.html">Frame</a></li>
+                           <li><a href="solution.html">Solution</a></li>
+                           <li><a href="about-us.html"> About Us</a></li>
+                           <li><a href="blog.html">Blog</a></li>
+                           
+                        </ul>
+                     </div>
+                  </div> 
+               </div>
+               <div class="col-lg-2 col-md-6">
+                 <div class="tp-footer-widget tp-footer-3-col-2">
+                    <h3 class="tp-footer-widget-title">Products</h3>
+                    <div class="tp-footer-widget-content">
+                       <ul>
+                          <li><a href="blinds.html">Blinds</a></li>
+                          <li><a href="Wooden-Flooring.html"> WOODEN FLOORING</a></li>
+                          <li><a href="Wallpapers.html">WALLPAPERS</a></li>
+                          <li><a href="Curtains.html">CURTAINS</a></li>
+                          <li><a href="mesh.html">Mesh</a></li>
+                         
+                       </ul>
+                    </div>
+                 </div> 
+              </div>
+               <div class="col-lg-2 col-md-6">
+                  <div class="tp-footer-widget tp-footer-3-col-2">
+                     <h3 class="tp-footer-widget-title">Services Req</h3>
+                     <div class="tp-footer-widget-content">
+                        <ul>
+                           <li><a href="Dealership-Enquiry.html">Dealership Enquiry</a></li>
+                           <li><a href="#">Download Brochure</a></li>
+                           <li><a href="Dealership-Enquiry.html"> Customer Service</a></li>
+                           <li><a href="experience.html" target="_blank">Experience Centre</a></li>
+                           <li><a href="location.html"> Dealer Locator</a></li>
+                           <li><a href="contact.html"> Contact</a></li>
+                           
+                        </ul>
+                     </div>
+                  </div> 
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="tp-footer-widget tp-footer-3-col-3">
+                     <h3 class="tp-footer-widget-title">Newsletter</h3>
+                     
+                        <div class="tp-footer-main-location">
+                           <a href="#">
+                              <i class="fa-sharp fa-light fa-location-dot"></i> No 50/A and 51/A, 1st floor, 16th cross, NGEF Layout Rd, HMT Layout, Balaji Nagar, Mallathahalli, Bengaluru, Karnataka 560056
+                           </a>
+                        </div>
+                        <div class="tp-footer-main-mail">
+                           <a href="mailto:needhelp@company.com"><i class="fa-light fa-message-dots"></i>inforenolet@gmail.com <br> 90084 83404</a>
+                        </div>
+                    
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+         <div class="tp-footer-copyright-area p-relative">
+            <div class="row">
+               <div class="col-md-12 col-lg-6">
+                  <div class="tp-footer-copyright-inner">
+                     <p> ©Copyright <span>©2024</span> <a href="https://livecristle.in/">Live Cristle</a>. All Rights Reserved</p>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+         </div>
+      </footer>
+      <!-- footer area end -->
+
+
+   <!-- JS here -->
+   <script src="assets/js/vendor/jquery.js"></script>
+   <script src="assets/js/vendor/waypoints.js"></script>
+   <script src="assets/js/bootstrap-bundle.js"></script>
+   <script src="assets/js/meanmenu.js"></script>
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/splide.js"></script>
+   <script src="assets/js/purecounter.js"></script>
+   <script src="assets/js/nouislider.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/wow.js"></script>
+   <script src="assets/js/gsap.min.js"></script>
+   <script src="assets/js/split-text.min.js"></script>
+   <script src="assets/js/scrool-triger.js"></script>
+   <script src="assets/js/scrollMagic.min.js"></script>
+   <script src="assets/js/parallax-scroll.js"></script>
+   <script src="assets/js/animation.gsap.min.js"></script>
+   <script src="assets/js/isotope-pkgd.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/jquery-appear.js"></script>
+   <script src="assets/js/jquery-knob.js"></script>
+   <script src="assets/js/ajax-form.js"></script>
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
+      
