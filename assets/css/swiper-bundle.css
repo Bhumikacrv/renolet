@@ -130,7 +130,7 @@
   display: none;
 }
 .swiper-container-css-mode > .swiper-wrapper > .swiper-slide {
-  scroll-snap-align: start start;
+  scroll-snap-align: start ;
 }
 .swiper-container-horizontal.swiper-container-css-mode > .swiper-wrapper {
   scroll-snap-type: x mandatory;
