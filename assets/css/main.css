@@ -10954,7 +10954,7 @@ div.demo img {
   /* background: var(--tp-common-white); */
  
   padding: 48px 0px 35px 0px;
-  width: 185px;
+  width: 205px!important;
 }
 .service-hide{
   display: none !important;
